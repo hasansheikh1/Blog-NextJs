@@ -7,6 +7,7 @@ function page() {
 
 
     const { data, status } = useSession();
+    console.log("user", data)
     return (
 
         <div className={styles.container}>
